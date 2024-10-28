@@ -69,7 +69,7 @@ The test data consists of two cases (To be only used for evaluations):
 1. **New Boundary Condition**: Evaluation on a system with only the middle mass fixed.
 2. **Larger Configuration**: Evaluation on a configuration with 12 masses.
 
-   *(Test data for will be released later automatically 2 days before submission.)*
+   ***(Test data for will be released later automatically 2 days before submission.)***
 
 ## Trajectory visualizations
 
