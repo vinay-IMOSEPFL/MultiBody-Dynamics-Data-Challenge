@@ -4,7 +4,7 @@ Welcome to the **Multi-Body Dynamics Data Challenge**!
 
 This challenge presents a scenario involving multiple masses connected by springs & dampers, fixed at two ends, and falling under gravity. 
 
-Participants will use trajectory data to predict future trajectories & forces, simulating the behavior of mulit-body dynamical systems.
+Participants will use trajectory data to predict future trajectories & forces, simulating the behavior of mulit-body dynamical systems applying physics bias in their models to create an efficient.
 
 ![7 masses](https://github.com/user-attachments/assets/2af412a9-90d8-40a8-8444-b935892afa80)
 
@@ -25,7 +25,11 @@ For models to be effective in real-world applications, they must be able to:
 2. **Generalize** to changes in configuration of similar systems.
 3. **Adapt** to new boundary conditions.
 
-Your trained models will be evaluated on the above mentioned characterstics
+Your trained simulators will be evaluated on the above mentioned characterstics
+ 
+ **These characterstics can not be obtained from merely data driven modeling and therfore it becomes important to incorporate physics baises**
+
+
 
 ---
 
@@ -66,6 +70,10 @@ The test data consists of two cases:
 
    *(Test data for this case will be released later automatically.)*
 
+## Trajectory visualizations
+
+Additionally the visualizations of all the training and test trajectories are provided.
+
 ---
 
 ## Goal
@@ -95,7 +103,7 @@ Good luck, and happy modeling!
 
 ## Resources
 
-- [Project Documentation](link_to_documentation)
-- [Discussion Forum](link_to_forum)
+- [Learning Physical Dynamics with Graph Networks](https://arxiv.org/abs/1806.01242)
+- [Neural Relational Inference for Interacting Systems](https://arxiv.org/pdf/2002.09405v2)
 
 Feel free to reach out with any questions, and we look forward to seeing your innovative solutions!
