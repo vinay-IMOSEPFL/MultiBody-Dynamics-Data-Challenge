@@ -116,9 +116,9 @@ Good luck, and happy modeling!
 3. **Test your model** on the provided test cases.
 4. **Submit your results** as per the instructions.
 
-## Resources
+## More Resources
 
 - [Learning Physical Dynamics with Graph Networks](https://arxiv.org/abs/1806.01242)
-- [Neural Relational Inference for Interacting Systems](https://arxiv.org/pdf/2002.09405v2)
+- [Physics Informed GNN for Dynamical Systems](https://proceedings.neurips.cc/paper_files/paper/2022/file/17b598fda495256bef6785c2b76c3217-Paper-Datasets_and_Benchmarks.pdf)
 
 Feel free to reach out with any questions, and we look forward to seeing your innovative solutions!
