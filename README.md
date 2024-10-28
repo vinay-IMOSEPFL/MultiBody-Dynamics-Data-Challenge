@@ -66,7 +66,7 @@ Each CSV file has the following columns:
 Initial conditions for 2 cases is provided to you i.e. the state of system at t=0, you are asked to predict the roll-out trajectory for each case.
 
 1. **Case1: Larger Configuration**: Evaluation on a configuration with 12 masses.
-     - Initial condition provided in file : /Test Cases Initial Conditions/Case1 Large Config Long Rollout/12 masses/timestep_0.csv
+     - ***Initial condition provided in file : /Test Cases Initial Conditions/Case1 Large Config Long Rollout/12 masses/timestep_0.csv***
      - Starting from 0 time step, predict a roll-out for **3000 time steps**.
      - For comparison visualization of the trajectory rollout is given in /Test Cases Trajectories Visualization/Case1 Large Config Long Rollout/12 masses.gif
         - Each frame is the plot of the masses after 10 time steps.
@@ -75,7 +75,7 @@ Initial conditions for 2 cases is provided to you i.e. the state of system at t=
 
 
 3. **Case2: New Boundary Condition**: Evaluation on a system with only the middle mass fixed, leading to system transforming to a chaotic pendulum with 8 masses.
-     - Initial condition provided in file : /Test Cases Initial Conditions/Case2 New Boundary Condition/8 masses chaotic pendulum/timestep_0.csv
+     - ***Initial condition provided in file : /Test Cases Initial Conditions/Case2 New Boundary Condition/8 masses chaotic pendulum/timestep_0.csv***
      - Starting from 0 time step, predict a roll-out for **1500 time steps**.
      - For comparison visualization of the trajectory rollout is given in /Test Cases Trajectories Visualization/Case2 New Boundary Condition/8 masses chaotic pendulum.gif
         - Each frame is the plot of the masses after 10 time steps.
