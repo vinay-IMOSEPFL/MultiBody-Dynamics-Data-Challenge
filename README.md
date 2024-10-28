@@ -71,8 +71,7 @@ Initial conditions for 2 cases is provided to you i.e. the state of system at t=
      - For comparison visualization of the trajectory rollout is given in /Test Cases Trajectories Visualization/Case1 Large Config Long Rollout/12 masses.gif
         - Each frame is the plot of the masses after 10 time steps.
 
-![12 masses](https://github.com/user-attachments/assets/8f4f1da1-c5c1-40db-9534-b215e681c524)
-
+![ezgif-5-c9f3d10456](https://github.com/user-attachments/assets/92576319-9f29-4777-bc92-14cb6cc355b9)
 
 3. **Case2: New Boundary Condition**: Evaluation on a system with only the middle mass fixed, leading to system transforming to a chaotic pendulum with 8 masses.
      - ***Initial condition provided in file : /Test Cases Initial Conditions/Case2 New Boundary Condition/8 masses chaotic pendulum/timestep_0.csv***
@@ -81,9 +80,7 @@ Initial conditions for 2 cases is provided to you i.e. the state of system at t=
         - Each frame is the plot of the masses after 10 time steps.
       
 ![ezgif-5-b717b37b2a](https://github.com/user-attachments/assets/829cf9db-c82c-4156-baed-0e9341b3107a)
-
-
-   
+ 
    ***(Test data will be released automatically 1 day before submission for plotting error curves.: Optional)***
 
 ## Training Trajectory visualizations
