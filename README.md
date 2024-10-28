@@ -25,13 +25,13 @@ For models to be effective in real-world applications, they must be able to:
 3. **Generalize** to changes in configuration of similar systems.
 4. **Adapt** to new boundary conditions. 
 
-Your trained simulators will be evaluated on the above mentioned characterstics
+Your trained simulators will be evaluated on the above mentioned criteria.
  
  **These characterstics can not be obtained from merely data driven modeling and therfore it becomes important to incorporate physics baises**
 
 ---
 
-## Training Data
+## Training Data : /Train Data/train.zip
 
 The training dataset consists of simulated trajectories for systems with **4, 5, 6, 7, and 8 masses**. Each mass weighs the same. Each mass is connected to the next one with a link, forming a chain like configuration (see the visualization of the trajectory of each configuration). Each link can produce spring and damping forces due to its deformation and the rate of change of deformation respectively. Additionaly each mass experiences a body force due to gravity (g=9.81 m/s^2). All the positions are in meters and velocities in m/s. 
 
