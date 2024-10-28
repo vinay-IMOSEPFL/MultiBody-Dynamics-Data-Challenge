@@ -85,16 +85,16 @@ Initial conditions for 2 cases is provided to you i.e. the state of system at t=
    
    ***(Test data will be released automatically 1 day before submission for plotting error curves.: Optional)***
 
-## Trajectory visualizations
+## Training Trajectory visualizations
 
-Additionally the visualizations of all the training and test trajectories are provided.
+Additionally the visualizations of all the training trajectories are provided.
 
 ---
 
 ## Goal
 
 Use the provided trajectory data to develop a model that:
-- Can predictfuture trajectories and forces.
+- Can predict future trajectories and forces.
 - Demonstrates physical consistency in long rollouts.
 - Adapts to both new configurations and boundary conditions.
 
