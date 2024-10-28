@@ -83,7 +83,7 @@ Initial conditions for 2 cases is provided to you i.e. the state of system at t=
 ![8 masses chaotic pendulum](https://github.com/user-attachments/assets/1c49db94-bf08-4a70-bb6b-ce2f62a078fa)
 
    
-   ***(Test data will be released automatically 1 day before submission for plotting error curves.)***
+   ***(Test data will be released automatically 1 day before submission for plotting error curves.: Optional)***
 
 ## Trajectory visualizations
 
