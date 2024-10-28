@@ -6,7 +6,8 @@ This challenge presents a scenario involving multiple masses connected by spring
 
 Participants will use trajectory data to predict future trajectories & forces, simulating the behavior of mulit-body dynamical systems applying physics bias in their models to create an efficient.
 
-![7 masses](https://github.com/user-attachments/assets/2af412a9-90d8-40a8-8444-b935892afa80)
+![ezgif-5-4590467762](https://github.com/user-attachments/assets/24d6b39a-7b84-4d1f-9306-ce0ef5597742)
+
 
 ---
 
