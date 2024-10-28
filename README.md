@@ -21,21 +21,22 @@ In this challenge, you will predict:
 2. **Forces** between masses (optional).
 
 For models to be effective in real-world applications, they must be able to:
-1. **Generate physically consistent long rollouts** of trajectories.
-2. **Generalize** to changes in configuration of similar systems.
-3. **Adapt** to new boundary conditions.
+1. **Learn** from scarce data.
+2. **Generate physically consistent long rollouts** of trajectories.
+3. **Generalize** to changes in configuration of similar systems.
+4. **Adapt** to new boundary conditions. 
 
 Your trained simulators will be evaluated on the above mentioned characterstics
  
  **These characterstics can not be obtained from merely data driven modeling and therfore it becomes important to incorporate physics baises**
 
-
-
 ---
 
 ## Training Data
 
-The training dataset consists of simulated trajectories for systems with **4, 5, 6, 7, and 8 masses**. Each configuration is stored in a separate folder within `train.zip`, organized as:
+The training dataset consists of simulated trajectories for systems with **4, 5, 6, 7, and 8 masses**. Each mass weighs the same. Each mass is connected to the next one with a link, forming a chain like configuration (see the visualization of the trajectory of each configuration). Each link can produce a spring and damping force due to its deformation and the rate of change of deformation respectively. Additionaly each mass experiences a body force due to gravity (g=9.81 m/s^2). All the positions are in meters and velocities in m/s. 
+
+Each configuration is stored in a separate folder within `train.zip`, organized as:
 
 - `4 masses/`
 - `5 masses/`
