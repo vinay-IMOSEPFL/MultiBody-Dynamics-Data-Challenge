@@ -4,10 +4,8 @@ Welcome to the **Multi-Body Dynamics Data Challenge**!
 
 This challenge presents a scenario involving multiple masses connected by springs & dampers, fixed at two ends, and falling under gravity. 
 
-Participants will use trajectory data to predict future trajectories & forces, simulating the behavior of mulit-body dynamical systems applying physics bias in their models to create an efficient.
-
+Participants will use trajectory data and physics bias/knowledge to learn physically consistent dynamics of this multi-body system and predict the trajectories for various operating conditions and configurations. 
 ![ezgif-5-4590467762](https://github.com/user-attachments/assets/24d6b39a-7b84-4d1f-9306-ce0ef5597742)
-
 
 ---
 
@@ -35,7 +33,7 @@ Your trained simulators will be evaluated on the above mentioned characterstics
 
 ## Training Data
 
-The training dataset consists of simulated trajectories for systems with **4, 5, 6, 7, and 8 masses**. Each mass weighs the same. Each mass is connected to the next one with a link, forming a chain like configuration (see the visualization of the trajectory of each configuration). Each link can produce a spring and damping force due to its deformation and the rate of change of deformation respectively. Additionaly each mass experiences a body force due to gravity (g=9.81 m/s^2). All the positions are in meters and velocities in m/s. 
+The training dataset consists of simulated trajectories for systems with **4, 5, 6, 7, and 8 masses**. Each mass weighs the same. Each mass is connected to the next one with a link, forming a chain like configuration (see the visualization of the trajectory of each configuration). Each link can produce spring and damping forces due to its deformation and the rate of change of deformation respectively. Additionaly each mass experiences a body force due to gravity (g=9.81 m/s^2). All the positions are in meters and velocities in m/s. 
 
 Each configuration is stored in a separate folder within `train.zip`, organized as:
 
@@ -67,10 +65,11 @@ Each CSV file has the following columns:
 
 The test data consists of two cases (To be only used for evaluations):
 
+
 1. **New Boundary Condition**: Evaluation on a system with only the middle mass fixed.
 2. **Larger Configuration**: Evaluation on a configuration with 12 masses.
 
-   ***(Test data for will be released later automatically 2 days before submission.)***
+   ***(Test data will be released automatically 1 day before submission for plotting error curves.)***
 
 ## Trajectory visualizations
 
