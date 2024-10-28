@@ -80,7 +80,8 @@ Initial conditions for 2 cases is provided to you i.e. the state of system at t=
      - For comparison visualization of the trajectory rollout is given in /Test Cases Trajectories Visualization/Case2 New Boundary Condition/8 masses chaotic pendulum.gif
         - Each frame is the plot of the masses after 10 time steps.
       
-![8 masses chaotic pendulum](https://github.com/user-attachments/assets/1c49db94-bf08-4a70-bb6b-ce2f62a078fa)
+![ezgif-5-b717b37b2a](https://github.com/user-attachments/assets/829cf9db-c82c-4156-baed-0e9341b3107a)
+
 
    
    ***(Test data will be released automatically 1 day before submission for plotting error curves.: Optional)***
