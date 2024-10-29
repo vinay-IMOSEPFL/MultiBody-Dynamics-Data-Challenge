@@ -43,7 +43,7 @@ Each configuration is stored in a separate folder within `/Train Data/train.zip`
 - `7 masses/`
 - `8 masses/`
 
-Each folder contains **2000 CSV files** (one per time step) representing the trajectory data, with position and velocity measurements sampled every 0.01 seconds.
+Each folder contains **1500 CSV files** (one per time step) representing the trajectory data, with position and velocity measurements sampled every 0.01 seconds.
 
 ### CSV File Structure
 
