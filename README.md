@@ -116,7 +116,8 @@ Good luck, and happy modeling!
 
 ## More Resources
 
+- [Learning to Simulate Complex Physics with Graph Networks](https://proceedings.mlr.press/v119/sanchez-gonzalez20a)
 - [Learning Physical Dynamics with Graph Networks](https://arxiv.org/abs/1806.01242)
-- [Physics Informed GNN for Dynamical Systems](https://proceedings.neurips.cc/paper_files/paper/2022/file/17b598fda495256bef6785c2b76c3217-Paper-Datasets_and_Benchmarks.pdf)
+- [Physics Informed GNN for Dynamical Systems](https://proceedings.neurips.cc/paper_files/paper/2022/file/17b598fda495256bef6785c2b76c3217-Paper-Datasets_and_Benchmarks.pdf)- 
 
 Feel free to reach out with any questions, and we look forward to seeing your innovative solutions!
